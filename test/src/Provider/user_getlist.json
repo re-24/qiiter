@@ -1,0 +1,50 @@
+[
+  {
+    "description": "Qiiter Test開発_1",
+    "facebook_id": "facebookId_1",
+    "followees_count": 100,
+    "followers_count": 200,
+    "github_login_name": "githubId_1",
+    "id": "qiitaId_1",
+    "items_count": 10,
+    "linkedin_id": "linked_id_1",
+    "location": "Tokyo, Japan",
+    "name": "Test Name 1",
+    "organization": "Orag Name 1",
+    "profile_image_url": "https://xxxxx.com/profile_images/2309761038/test1.jpeg",
+    "twitter_screen_name": "twitter_scrname_1",
+    "website_url": "http://xxxx.test1.com"
+  },
+  {
+    "description": "Qiiter Test開発_2",
+    "facebook_id": "facebookId_2",
+    "followees_count": 101,
+    "followers_count": 201,
+    "github_login_name": "githubId_2",
+    "id": "qiitaId_2",
+    "items_count": 11,
+    "linkedin_id": "linked_id_2",
+    "location": "Tokyo, Japan",
+    "name": "Test Name 2",
+    "organization": "Orag Name 2",
+    "profile_image_url": "https://xxxxx.com/profile_images/2309761038/test2.jpeg",
+    "twitter_screen_name": "twitter_scrname_2",
+    "website_url": "http://xxxx.test2.com"
+  },
+  {
+    "description": "Qiiter Test開発_3",
+    "facebook_id": "facebookId_3",
+    "followees_count": 102,
+    "followers_count": 202,
+    "github_login_name": "githubId_3",
+    "id": "qiitaId_3",
+    "items_count": 12,
+    "linkedin_id": "linked_id_3",
+    "location": "Tokyo, Japan",
+    "name": "Test Name 3",
+    "organization": "Orag Name 3",
+    "profile_image_url": "https://xxxxx.com/profile_images/2309761038/test3.jpeg",
+    "twitter_screen_name": "twitter_scrname_3",
+    "website_url": "http://xxxx.test3.com"
+  }
+]

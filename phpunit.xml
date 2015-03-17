@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+    colors="true"
+    verbose="true"
+    bootstrap="./test/Bootstrap.php">
+    
+    <testsuites>
+        <testsuite>
+            <directory>./test</directory>
+        </testsuite>
+    </testsuites>
+    
+    <filter>
+        <whiltelist processUncoveredFilesFromWhitelist="true">
+            <directory sufix=".php">./src/</directory>
+        </whiltelist>
+        
+        <blacklist>
+            <directory>./vendor</directory>
+            <file>./test/Bootstrap.php</file>
+            <file>./test/src/Provider/Provider.php</file>
+        </blacklist>
+    </filter>
+    
+    <logging>
+        <log
+            type="coverage-html" 
+            target="./build/coverage" 
+            charset="UTF-8" 
+            yui="true" 
+            highlight="true"
+            lowUpperBound="35"
+            highLowerBound="70"
+        />
+    </logging>
+    
+    <listeners>
+         <listener class="\Mockery\Adapter\Phpunit\TestListener"/>
+    </listeners>
+</phpunit>

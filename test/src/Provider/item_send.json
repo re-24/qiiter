@@ -1,0 +1,16 @@
+{
+  "body": "# Example",
+  "coediting": false,
+  "gist": true,
+  "private": false,
+  "tags": [
+    {
+      "name": "example",
+      "versions": [
+        "0.0.1"
+      ]
+    }
+  ],
+  "title": "hello world",
+  "tweet": true
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "body": "# Example1",
+    "coediting": false,
+    "created_at": "2014-09-04T09:54:49+00:00",
+    "id": "commentid_1",
+    "private": false,
+    "rendered_body": "<h1>Example1</h1>",
+    "tags": [
+      {
+        "name": "example1",
+        "versions": [
+          "0.0.1"
+        ]
+      }
+    ],
+    "title": "hello world_1",
+    "updated_at": "2014-09-04T09:54:49+00:00",
+    "url": "https://qiita.com/xxxxx/items/4bd431809afb1bb99e4f1",
+    "user": {
+		"description": "Qiiter Test開発_1",
+		"facebook_id": "facebookId_1",
+		"followees_count": 100,
+		"followers_count": 200,
+		"github_login_name": "githubId_1",
+		"id": "qiitaId_1",
+		"items_count": 10,
+		"linkedin_id": "linked_id_1",
+		"location": "Tokyo, Japan",
+		"name": "Test Name 1",
+		"organization": "Orag Name 1",
+		"profile_image_url": "https://xxxxx.com/profile_images/2309761038/test1.jpeg",
+		"twitter_screen_name": "twitter_scrname_1",
+		"website_url": "http://xxxx.test1.com"
+    }
+  },
+  {
+    "body": "# Example2",
+    "coediting": false,
+    "created_at": "2014-09-04T09:54:49+00:00",
+    "id": "commentid_2",
+    "private": false,
+    "rendered_body": "<h1>Example2</h1>",
+    "tags": [
+      {
+        "name": "example2",
+        "versions": [
+          "0.0.1"
+        ]
+      }
+    ],
+    "title": "hello world_2",
+    "updated_at": "2014-09-04T09:54:49+00:00",
+    "url": "https://qiita.com/xxxxx/items/4bd431809afb1bb99e4f2",
+    "user": {
+		"description": "Qiiter Test開発_2",
+		"facebook_id": "facebookId_2",
+		"followees_count": 101,
+		"followers_count": 201,
+		"github_login_name": "githubId_2",
+		"id": "qiitaId_2",
+		"items_count": 11,
+		"linkedin_id": "linked_id_2",
+		"location": "Tokyo, Japan",
+		"name": "Test Name 2",
+		"organization": "Orag Name 2",
+		"profile_image_url": "https://xxxxx.com/profile_images/2309761038/test2.jpeg",
+		"twitter_screen_name": "twitter_scrname_2",
+		"website_url": "http://xxxx.test2.com"
+    }
+  }
+]
