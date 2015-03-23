@@ -4,7 +4,7 @@ namespace re24\Qiiter\Entity;
 
 /**
  * Comment entity class
- * 
+ *
  * @property string $body
  * @property string $created_at
  * @property string $id
@@ -14,10 +14,10 @@ namespace re24\Qiiter\Entity;
  */
 class Comment extends AbstractEntity
 {
-	protected $body;
-	protected $created_at;
-	protected $id;
-	protected $rendered_body;
-	protected $updated_at;
-	protected $user;
+    protected $body;
+    protected $created_at;
+    protected $id;
+    protected $rendered_body;
+    protected $updated_at;
+    protected $user;
 }

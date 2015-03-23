@@ -43,4 +43,3 @@ class Bootstrap
 }
 
 Bootstrap::init();
-

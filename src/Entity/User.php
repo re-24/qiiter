@@ -2,10 +2,9 @@
 
 namespace re24\Qiiter\Entity;
 
-
 /**
  * User Entity class
- * 
+ *
  * @property string|null $description
  * @property string|null  $facebook_id
  * @property int  $followees_count
@@ -23,18 +22,18 @@ namespace re24\Qiiter\Entity;
  */
 class User extends AbstractEntity
 {
-	protected $description;
-	protected $facebook_id;
-	protected $followees_count;
-	protected $followers_count;
-	protected $github_login_name;
-	protected $id;
-	protected $items_count;
-	protected $linkedin_id;
-	protected $location;
-	protected $name;
-	protected $organization;
-	protected $profile_image_url;
-	protected $twitter_screen_name;
-	protected $website_url;
+    protected $description;
+    protected $facebook_id;
+    protected $followees_count;
+    protected $followers_count;
+    protected $github_login_name;
+    protected $id;
+    protected $items_count;
+    protected $linkedin_id;
+    protected $location;
+    protected $name;
+    protected $organization;
+    protected $profile_image_url;
+    protected $twitter_screen_name;
+    protected $website_url;
 }

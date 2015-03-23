@@ -7,34 +7,34 @@ namespace re24\Qiiter\Authorization;
  */
 class AccessToken
 {
-	private $accesstoken;
+    private $accesstoken;
 
-	private $scope;
-	
-	public function setAccseeToken($token)
-	{
-		$this->accesstoken = $token;
-		
-		return $this;
-	}
-	
-	public function getAccessToken()
-	{
-		return $this->accesstoken;
-	}
-		
-	public function setScope(array $scope)
-	{
-		$this->scope = $scope;
-	}
-	
-	public function getScope()
-	{
-		return $this->scope;
-	}
-	
-	public function __toString()
-	{
-		return $this->accesstoken;
-	}
+    private $scope;
+    
+    public function setAccseeToken($token)
+    {
+        $this->accesstoken = $token;
+        
+        return $this;
+    }
+    
+    public function getAccessToken()
+    {
+        return $this->accesstoken;
+    }
+        
+    public function setScope(array $scope)
+    {
+        $this->scope = $scope;
+    }
+    
+    public function getScope()
+    {
+        return $this->scope;
+    }
+    
+    public function __toString()
+    {
+        return $this->accesstoken;
+    }
 }

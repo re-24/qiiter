@@ -4,9 +4,9 @@ namespace re24\Qiiter\Entity;
 
 /**
  * Item Entity class
- * 
+ *
  * @property string $body
- * @property boolean $coediting 
+ * @property boolean $coediting
  * @property string $created_at
  * @property string $id
  * @property boolean $private
@@ -21,17 +21,17 @@ namespace re24\Qiiter\Entity;
  */
 class Item extends AbstractEntity
 {
-	protected $body;
-	protected $coediting;
-	protected $created_at;
-	protected $id;
-	protected $private;
-	protected $rendered_body;
-	protected $tags;
-	protected $title;
-	protected $updated_at;
-	protected $url;
-	protected $gist;
-	protected $tweet;
-	protected $user;
+    protected $body;
+    protected $coediting;
+    protected $created_at;
+    protected $id;
+    protected $private;
+    protected $rendered_body;
+    protected $tags;
+    protected $title;
+    protected $updated_at;
+    protected $url;
+    protected $gist;
+    protected $tweet;
+    protected $user;
 }

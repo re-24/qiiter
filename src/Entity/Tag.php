@@ -4,7 +4,7 @@ namespace re24\Qiiter\Entity;
 
 /**
  * Tag Entity class
- * 
+ *
  * @property int $followers_count
  * @property string $icon_url
  * @property string $id
@@ -12,9 +12,8 @@ namespace re24\Qiiter\Entity;
  */
 class Tag extends AbstractEntity
 {
-	protected $followers_count;
-	protected $icon_url;
-	protected $id;
-	protected $items_count;
+    protected $followers_count;
+    protected $icon_url;
+    protected $id;
+    protected $items_count;
 }
-
